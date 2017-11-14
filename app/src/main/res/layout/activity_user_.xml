@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bitcard.cosc431.bitcard.Vendor_Activity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="458dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="The amount you spent will be deducted from your card. Through the app you can always check your balance, see the current price of bitcoin, add new BitCards, and spend your BitCards"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.503" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="451dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:text="4. You've just spent with Bitcoin!"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView13"
+        app:layout_constraintRight_toRightOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.666" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="465dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        android:text="You can choose exactly how much to send a vendor. Be careful though, Bitcoin prices often fluctuate and a small fee is charged for every transaction through the network."
+        android:textSize="19sp"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintLeft_toLeftOf="@+id/textView12"
+        app:layout_constraintRight_toRightOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="460dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:text="3. Enter an amount and hit send!"
+        android:textSize="25sp"
+        app:layout_constraintRight_toRightOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintLeft_toLeftOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="466dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="The BitCard you have purchased can be scanned by any phone or tablet capable of running this application"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView7"
+        app:layout_constraintRight_toRightOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="459dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="2. Scan a Vendor QR code or enter an address"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintRight_toRightOf="@+id/textView8"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="466dp"
+        android:layout_height="35dp"
+        android:text="1. Scan your NFC enabled BitCard"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintRight_toRightOf="@+id/textView9"
+        app:layout_constraintLeft_toLeftOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.494" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Got it!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:text="Were glad you decided to start using BitCoin!"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="With BitCard, buying and spending Bitcoin can be done in just 4 easy steps"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="470dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:text="This is known as a public key, and its input ensures the money you send goes where you want it to go"
+        android:textSize="19sp"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintLeft_toLeftOf="@+id/textView10"
+        app:layout_constraintRight_toRightOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+</android.support.constraint.ConstraintLayout>
