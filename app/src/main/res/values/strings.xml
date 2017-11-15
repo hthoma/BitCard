@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BitCard</string>
+    <string name="nfctag">BitCard</string>
+    <string name="result_text_default">BitCard</string>
 </resources>
