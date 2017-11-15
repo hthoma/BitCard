@@ -14,7 +14,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="30dp"
         android:background="@android:color/holo_green_light"
-        android:text="I do not own a BitCard but want to start recieving BitCard payments"
+        android:text="I want to start taking Bitcoin payments"
         app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

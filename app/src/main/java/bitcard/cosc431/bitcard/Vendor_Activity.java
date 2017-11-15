@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import bitcard.cosc431.bitcard.maindisplay.vendor.VendorDisplay;
+import bitcard.cosc431.bitcard.maindisplay.vendor.CreateWallet;
 
 public class Vendor_Activity extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class Vendor_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent vIntent =
-                        new Intent(Vendor_Activity.this,VendorDisplay.class);
+                        new Intent(Vendor_Activity.this,CreateWallet.class);
                 startActivity(vIntent);
                 finish();
             }
