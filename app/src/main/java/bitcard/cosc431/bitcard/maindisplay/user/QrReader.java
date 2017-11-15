@@ -1,10 +1,9 @@
 package bitcard.cosc431.bitcard.maindisplay.user;
 
 import android.Manifest;
-import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.os.Vibrator;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -29,7 +28,7 @@ public class QrReader extends AppCompatActivity {
         BarcodeDetector barcodeDetector;
         CameraSource cameraSource;
         final int RequestCameraPermissionID = 1001;
-
+        String Qrval;
 
         @Override
         public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -110,12 +109,19 @@ public class QrReader extends AppCompatActivity {
                         txtResult.post(new Runnable() {
                             @Override
                             public void run() {
-                                //Create vibrate
-                                Vibrator vibrator = (Vibrator)getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
-                                vibrator.vibrate(1000);
+
                                 txtResult.setText(qrcodes.valueAt(0).displayValue);
+                                Qrval = qrcodes.valueAt(0).displayValue;
+                                Intent sendQrBack = new Intent(QrReader.this, UserDisplay.class);
+                                sendQrBack.putExtra("ScannedKey", Qrval);
+                                startActivity(sendQrBack);
+                                finish();
+
+
                             }
                         });
+
+
                     }
                 }
             });
