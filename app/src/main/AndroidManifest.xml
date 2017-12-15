@@ -39,7 +39,7 @@
         <activity android:name=".maindisplay.user.QrReader" />
         <activity android:name=".maindisplay.user.main.MainUser_" />
         <activity android:name=".maindisplay.user.main.MainUser" />
-        <activity android:name=".maindisplay.PriceIndex" />
+        <activity android:name=".maindisplay.PriceIndex" android:theme="@style/AppTheme2"/>
     </application>
 
 </manifest>

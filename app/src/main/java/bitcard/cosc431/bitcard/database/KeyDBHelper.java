@@ -9,7 +9,7 @@ public class KeyDBHelper extends SQLiteOpenHelper {
 
 
 
-    private static final String DATABASE_NAME = "keydatabase.db";
+    private static final String DATABASE_NAME = "keydatabase2.db";
     private static final int DB_VERSION = 4;
 
     private static final String CREATE_TABLE =
