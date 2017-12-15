@@ -10,6 +10,7 @@ import android.widget.Button;
 import java.util.ArrayList;
 
 import bitcard.cosc431.bitcard.database.KeyDataSource;
+import bitcard.cosc431.bitcard.maindisplay.user.main.MainUser_;
 import bitcard.cosc431.bitcard.maindisplay.vendor.VendorDisplay;
 import bitcard.cosc431.bitcard.models.KeyClass;
 
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.Usrbutton:
                 Intent uIntent =
-                        new Intent(this,User_Activity.class);
+                        new Intent(this,MainUser_.class);
                 startActivity(uIntent);
 
                 break;

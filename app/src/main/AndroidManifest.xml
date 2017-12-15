@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-feature
         android:name="android.hardware.nfc"
@@ -35,7 +37,9 @@
         <activity android:name=".maindisplay.vendor.CreateWallet" />
         <activity android:name=".maindisplay.user.UserDisplay" />
         <activity android:name=".maindisplay.user.QrReader" />
-        <activity android:name=".maindisplay.PriceIndex"></activity>
+        <activity android:name=".maindisplay.user.main.MainUser_" />
+        <activity android:name=".maindisplay.user.main.MainUser" />
+        <activity android:name=".maindisplay.PriceIndex" />
     </application>
 
 </manifest>
