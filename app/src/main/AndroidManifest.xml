@@ -4,12 +4,16 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.NFC" />
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature
         android:name="android.hardware.nfc"
         android:required="true" />
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode" />
 
     <application
         android:allowBackup="true"
@@ -30,8 +34,8 @@
         <activity android:name=".maindisplay.vendor.VendorDisplay" />
         <activity android:name=".maindisplay.vendor.CreateWallet" />
         <activity android:name=".maindisplay.user.UserDisplay" />
-        <activity android:name=".maindisplay.user.QrReader"></activity>
+        <activity android:name=".maindisplay.user.QrReader" />
+        <activity android:name=".maindisplay.PriceIndex"></activity>
     </application>
-    <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
 
 </manifest>
