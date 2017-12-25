@@ -3,7 +3,7 @@
 ![N|Solid](https://i.imgur.com/z8vgVcf.png)
 
 Bitcard is a Android application that utilizes bitcoinj to make it easy to spend and receieve Bitcoin! 
-
+The current build runs on the bitcoin testnet 3, so the wallet currently does not support the main bitcoin blockchain
 
 # Working Features
   - Easy Wallet Creation
