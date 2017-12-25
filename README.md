@@ -9,14 +9,12 @@ Bitcard is a Android application that utilizes bitcoinj to make it easy to spend
   - Easy Wallet Creation
   - QR Code Wallet Scanner
   - NFC Card Scanning for private keys
+  - Price Index
+  - Database storing of public keys
 
 # ToDo
 
-
-  - Lifecycle fix with QR code scanner
-  - Price Index
-  - Database storing of public keys
-  - Probably a lot more
+  - Nothing planned, however a lot could be done to improve the app. Feel free to fork if interested
 
 
 
