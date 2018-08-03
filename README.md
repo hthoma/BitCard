@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/hthoma/bitcard/badge/master)](https://www.codefactor.io/repository/github/hthoma/bitcard/overview/master)
 # Bitcard
 
 ![N|Solid](https://i.imgur.com/z8vgVcf.png)
